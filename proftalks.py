@@ -27,7 +27,7 @@ def create_panel(talk_id, talk_title):
     panel_body = soup.new_tag("div")
     panel_body["class"] = "panel-body"
     panel_img = soup.new_tag("img")
-    panel_img["src"] = "assets/img/proftalks/tim.jpg"
+    panel_img["src"] = "assets/img/proftalks/" + talk_id + ".jpg"
     panel_img["width"] = "100%"
     panel_img["height"] = "100%"
 
